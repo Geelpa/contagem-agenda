@@ -13,10 +13,10 @@ function collectColors(turno = "todos") {
         const hour = parseInt(hourMatch[1]);
 
         // Filtra por turno
-        if (turno === "manha" && (hour < 0 || hour >= 13)) {
+        if (turno === "manha" && (hour < 0 || hour >= 12)) {
           return; // Pula este evento
         }
-        if (turno === "tarde" && (hour < 14 || hour > 23)) {
+        if (turno === "tarde" && (hour < 13 || hour > 23)) {
           return; // Pula este evento
         }
       }
