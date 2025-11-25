@@ -1,0 +1,93 @@
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <style>
+    body {
+      width: 300px;
+      padding: 15px;
+      font-family: Arial, sans-serif;
+    }
+
+    h3 {
+      margin: 0 0 10px 0;
+      color: #333;
+    }
+
+    .turno-buttons {
+      display: flex;
+      gap: 5px;
+      margin-bottom: 15px;
+    }
+
+    .turno-btn {
+      flex: 1;
+      padding: 8px;
+      border: 2px solid #ddd;
+      background: white;
+      cursor: pointer;
+      border-radius: 4px;
+      font-weight: bold;
+      transition: all 0.3s;
+    }
+
+    .turno-btn:hover {
+      background: #f0f0f0;
+    }
+
+    .turno-btn.active {
+      background: #2196F3;
+      color: white;
+      border-color: #2196F3;
+    }
+
+    #out {
+      margin-bottom: 10px;
+      padding: 10px;
+      background: #f9f9f9;
+      border-radius: 4px;
+      min-height: 50px;
+    }
+
+    #out div {
+      padding: 5px 0;
+      border-bottom: 1px solid #eee;
+    }
+
+    #out div:last-child {
+      border-bottom: none;
+    }
+
+    #btn {
+      width: 100%;
+      padding: 10px;
+      background: #4CAF50;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      font-weight: bold;
+    }
+
+    #btn:hover {
+      background: #45a049;
+    }
+  </style>
+</head>
+
+<body>
+  <h3>Ordens de serviço do dia</h3>
+
+  <div class="turno-buttons">
+    <button class="turno-btn active" data-turno="todos">Todos</button>
+    <button class="turno-btn" data-turno="manha">Manhã</button>
+    <button class="turno-btn" data-turno="tarde">Tarde</button>
+  </div>
+
+  <div id="out">Carregando…</div>
+  <button id="btn">Atualizar</button>
+
+  <script src="popup.js"></script>
+</body>
+
+</html>
