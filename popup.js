@@ -6,11 +6,16 @@ const colorMap = {
   "rgb(0, 255, 0)": "Suporte",
   "rgb(61, 17, 223)": "Oscilação",
   "rgb(255, 234, 72)": "Retirada de equipamento",
+  "rgb(255, 228, 168)": "Retirada de equipamento 2",
   "rgb(39, 92, 111)": "Cabeamento de equipamento",
   "rgb(172, 162, 124)": "Instalação de equipamentos",
   "rgb(230, 245, 15)": "Troca de equipamentos",
   "rgb(117, 217, 231)": "Alteração na instalação",
   "rgb(155, 248, 217)": "Reparo Físico",
+  "rgb(4, 255, 0)": "vistoria CQ",
+  "rgb(204, 232, 181)": "Visita Técnica",
+  "rgb(0, 0, 0)": "O.S sem padrão de cor",
+  "rgb(255, 147, 0)": "Retirada por inadimplência",
 };
 
 let turnoAtual = "todos";
