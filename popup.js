@@ -16,6 +16,7 @@ const colorMap = {
   "rgb(204, 232, 181)": "Visita Técnica",
   "rgb(0, 0, 0)": "O.S sem padrão de cor",
   "rgb(255, 147, 0)": "Retirada por inadimplência",
+  "rgb(252, 219, 235)": "Cabeamento de equipamento",
 };
 
 let turnoAtual = "todos";
