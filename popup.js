@@ -19,6 +19,7 @@ const colorMap = {
   "rgb(252, 219, 235)": "Verificação de sinal",
   "rgb(202, 240, 254)": "ADIANTAMENTO DE EXTERNA",
   "rgb(70, 35, 45)": "Entrega brinde",
+  "rgb(0, 30, 255)": "Visita técnica",
 
 };
 
