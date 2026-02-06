@@ -17,6 +17,9 @@ const colorMap = {
   "rgb(0, 0, 0)": "O.S sem padrão de cor",
   "rgb(255, 147, 0)": "Retirada por inadimplência",
   "rgb(252, 219, 235)": "Verificação de sinal",
+  "rgb(202, 240, 254)": "ADIANTAMENTO DE EXTERNA",
+  "rgb(70, 35, 45)": "Entrega brinde",
+
 };
 
 let turnoAtual = "todos";
